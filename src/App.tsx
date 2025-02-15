@@ -204,7 +204,7 @@ import React, { useEffect, useState } from 'react';
 
       const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
-        if (password === 'AB#!ad123f@@') {
+        if (password === 'RANDOMshit!@') {
           onUnlock();
         } else {
           setError('رمز عبور اشتباه است.');
